@@ -1,16 +1,25 @@
 {
-    "name": "imag/ldapbundle",
-    "description": "LDAP Bundle for Symfony 2",
-    "homepage": "http://github.com/BorisMorel/LdapBundle",
-    "version": "1.2",
-    "source": {
-        "url": "https://github.com/BorisMorel/LdapBundle.git",
-        "type": "git",
-        "reference": "origin/master"
-    },
+    "name": "instaclick/ldapbundle",
+    "type": "library",
+    "description": "LDAP bundle for Symfony 2.1",
+    "keywords": ["ldap"],
+    "homepage": "http://instaclick.com/torontotechjobs/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris Morel",
+            "homepage": "http://github.com/BorisMorel",
+            "role": "Developer"
+        },
+        {
+            "name": "Juti Noppornpitak",
+            "email": "jutin@nationalfibre.net",
+            "role": "Fork Maintainer"
+        }
+    ],
     "autoload": {
-        "psr-0": { "IMAG\\LdapBundle": "" }
-    },
-
-    "target-dir": "IMAG/LdapBundle"
+        "psr-0": {
+            "IMAG": ""
+        }
+    }
 }
