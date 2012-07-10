@@ -34,5 +34,6 @@
         "psr-0": {
             "IMAG\\LdapBundle": ""
         }
-    }
+    },
+    "target-dir": "IMAG/LdapBundle"
 }
