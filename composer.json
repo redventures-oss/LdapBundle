@@ -1,5 +1,5 @@
 {
-    "name": "instaclick/ldapbundle",
+    "name": "instaclick/ldap-bundle",
     "type": "library",
     "description": "LDAP bundle for Symfony 2.1",
     "keywords": ["ldap"],
