@@ -54,10 +54,6 @@ class LdapAuthenticationProvider implements AuthenticationProviderInterface
             throw new AuthenticationException('Unsupported token');
         }
 
-        if ($token->getProviderKey() !== $this->providerKey) {
-            throw new AuthenticationException('Incorrect provider key');
-        }
-
         try {
             $user = $this->userProvider
                          ->loadUserByUsername($token->getUsername());
