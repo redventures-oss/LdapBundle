@@ -61,7 +61,7 @@ class LdapConnection implements LdapConnectionInterface
         }
 
         if (!$password) {
-            throw new ConnectionException('Password cannot be empty');
+            return false;
         }
         
         // Accoding to the LDAP RFC 4510-4511, the password can be blank.
