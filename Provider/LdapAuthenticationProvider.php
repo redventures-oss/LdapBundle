@@ -68,7 +68,6 @@ class LdapAuthenticationProvider implements AuthenticationProviderInterface
         if ($this->bind($user, $token)) {
             $ldapToken = new LdapToken($user, '', $user->getRoles());
             $ldapToken->setAuthenticated(true);
-            $ldapToken->setAttributes($token->getAttributes());
 
             return $ldapToken;
         }
